@@ -284,6 +284,14 @@ h1 {
 	line-height: 1.1;
 	margin: 68px 0 33px;
 }
+.blog h2 {
+	font-size: 32px; 
+	line-height: 1.1;
+	margin: 68px 0 33px;
+}
+.blog h2 a:hover {
+	text-decoration: none;
+}
 /* h1  контакты */
 .page-id-28 h1 {
 	font-size: 64px; 
@@ -1369,7 +1377,7 @@ ul.nav-menu .focus > ul,
 
 .entry-content a,
 .comment-content a {
-	color: #bc360a;
+	color: #fff;
 }
 
 .entry-content a:hover,
@@ -1379,6 +1387,20 @@ ul.nav-menu .focus > ul,
 
 .entry-content .more-link {
 	white-space: nowrap;
+	float: right;
+	background-color: #3B909C;
+	padding: 2px 6px;
+	border-radius: 3px;
+	border: 2px solid  #3B909C;
+	text-transform: uppercase;
+	font-size: 14px;
+
+
+}
+.entry-content .more-link:hover {
+	color: #3B909C;
+	background-color: transparent;
+	text-decoration: none;
 }
 
 .entry-content blockquote {
@@ -1996,7 +2018,7 @@ footer.entry-meta {
 
 .img_horisontal {
     position: relative;
-    left: 110px;
+    left: 117px;
     top: 15px;
     box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.5);
 }
@@ -2073,7 +2095,17 @@ footer.entry-meta {
 	margin-top: 5px;
 	cursor: default;
 }
-
+.lastimage .centerimage {
+	width: 750px;
+	height: 500px;
+	position: relative;
+	left: 50%;
+	margin-left: -375px;
+}
+.lastimage h2{
+	text-align: center;
+	text-transform: uppercase;
+}
 
 /**
  * 5.6 Attachments
@@ -3147,6 +3179,12 @@ footer.entry-meta {
 
 /* Collapse oversized image and pulled images after iPad breakpoint. */
 @media (max-width: 767px) {
+	.lastimage .centerimage {
+	width: 90%;
+/*	height: 40vw;*/
+	left: 5%;
+	margin-left: 0px;
+	}
 	.lastimage img {
 		width: 100%;
 	}

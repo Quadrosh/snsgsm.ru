@@ -21,14 +21,14 @@
 		<?php if ( is_single() ) : ?>
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 		<?php else : ?>
-		<h1 class="entry-title">
+		<h2 class="entry-title">
 			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
-		</h1>
+		</h2>
 		<?php endif; // is_single() ?>
 
 		<div class="entry-meta">
-			<?php twentythirteen_entry_meta(); ?>
-			<?php edit_post_link( __( 'Edit', 'twentythirteen' ), '<span class="edit-link">', '</span>' ); ?>
+			<!-- <?php twentythirteen_entry_meta(); ?> -->
+			
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
@@ -41,7 +41,7 @@
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
-				__( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'twentythirteen' ),
+				__( 'Подробнее', 'twentythirteen' ),
 				the_title( '<span class="screen-reader-text">', '</span>', false )
 			) );
 

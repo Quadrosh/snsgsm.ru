@@ -40,7 +40,9 @@ get_header(); ?>
 					<!-- доставка -->
 					<?php if (is_page(11))  { include __DIR__ . '/section_delivery.php';} ?> 
 					<!-- поставки опт -->
-					<?php if (is_page(18))  { include __DIR__ . '/section_contract.php';} ?> 	
+					<?php if (is_page(18))  { include __DIR__ . '/section_contract.php';} ?> 
+					<!-- о компании -->
+					<?php if (is_page(8))  { include __DIR__ . '/section_about.php';} ?>	
 					
 
 					<footer class="entry-meta">

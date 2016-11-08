@@ -2,69 +2,120 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56562725-4f1e-4474-960d-4b2b5e2805e8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hello.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-multibyte-patch/ext/ja/admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-multibyte-patch/ext/ja/class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-multibyte-patch/js/20140410/wplink.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-multibyte-patch/js/20140410/wplink.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-multibyte-patch/js/word-count.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-multibyte-patch/js/word-count.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-multibyte-patch/js/wplink.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-multibyte-patch/js/wplink.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-multibyte-patch/languages/wp-multibyte-patch-ja.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-multibyte-patch/languages/wp-multibyte-patch-ja.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-multibyte-patch/languages/wp-multibyte-patch.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-multibyte-patch/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-multibyte-patch/wp-multibyte-patch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-multibyte-patch/wpmp-config-sample-ja.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-multibyte-patch/wpmp-load.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/all-in-one-wp-migration.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/all-in-one-wp-migration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/constants.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/constants.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/controller/class-ai1wm-export-controller.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/controller/class-ai1wm-export-controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/controller/class-ai1wm-import-controller.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/controller/class-ai1wm-import-controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/controller/class-ai1wm-main-controller.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/controller/class-ai1wm-main-controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/controller/class-ai1wm-resolve-controller.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/controller/class-ai1wm-resolve-controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-compatibility.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-compatibility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-deprecated.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-deprecated.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-extensions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-extensions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-http.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-http.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-updater.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-updater.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/export/class-ai1wm-export-config.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/export/class-ai1wm-export-config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/export/class-ai1wm-export-database.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/export/class-ai1wm-export-database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/export/class-ai1wm-export-enumerate.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/export/class-ai1wm-export-enumerate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/http/class-ai1wm-http-curl.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/http/class-ai1wm-http-curl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/http/class-ai1wm-http-factory.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/http/class-ai1wm-http-factory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/http/class-ai1wm-http-stream.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/http/class-ai1wm-http-stream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/import/class-ai1wm-import-blogs.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/import/class-ai1wm-import-blogs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/import/class-ai1wm-import-content.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/import/class-ai1wm-import-content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/import/class-ai1wm-import-database.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/import/class-ai1wm-import-database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/import/class-ai1wm-import-done.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/import/class-ai1wm-import-done.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/import/class-ai1wm-import-upload.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/model/import/class-ai1wm-import-upload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database-utility.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database-utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/assets/css/backups.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/assets/css/backups.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/assets/css/export.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/assets/css/export.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/assets/css/import.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/assets/css/import.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/assets/css/updater.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/assets/css/updater.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/assets/javascript/backups.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/assets/javascript/backups.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/assets/javascript/import.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/assets/javascript/import.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/backups/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/backups/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/common/maintenance-mode.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/common/maintenance-mode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/export/advanced-settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/export/advanced-settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/export/export-buttons.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/export/export-buttons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/import/import-buttons.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/import/import-buttons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/main/backups-notice.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/lib/view/main/backups-notice.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/loader.php" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/loader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/all-in-one-wp-migration/readme.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/bws_functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/bws_include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/bws_menu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/css/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/css/general_style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/icons/plugins/db-manager.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/icons/themes/opening.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/icons/themes/realestate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/icons/themes/renty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/icons/themes/unity.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/images/bestwebsoft-logo-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/images/close_banner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/images/logo-white-min.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/images/membership-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/images/pattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/images/pattern_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/images/shortcode-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/images/tooltip_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/js/bws_menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/js/bws_tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/js/c_o_o_k_i_e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/js/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/js/general_script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/js/shortcode-button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/languages/bestwebsoft-fr_FR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/languages/bestwebsoft-fr_FR.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/languages/bestwebsoft-pl_PL.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/languages/bestwebsoft-pl_PL.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/languages/bestwebsoft-ru_RU.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/languages/bestwebsoft-ru_RU.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/languages/bestwebsoft-uk.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/languages/bestwebsoft-uk.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/bws_menu/product_list.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/contact_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/css/form_style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/images/cptch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/images/google-captcha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/images/gray-grad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/images/pro_screen_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/images/toggle-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/images/tooltip_attachment_tips.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/images/tooltip_sendme_block.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/includes/deprecated.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/js/cntctfrm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/js/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-af_ZA.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-af_ZA.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-ca.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-ca.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-cs_CZ.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-cs_CZ.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-da_DK.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-da_DK.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-de_DE.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-de_DE.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-el.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-el.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-es_ES.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-es_ES.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-et.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-et.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-fr_FR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-fr_FR.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-ja.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-ja.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-nb_NO.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-nb_NO.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-nl_NL.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-nl_NL.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-pt_BR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-pt_BR.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-ru_RU.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-ru_RU.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-sk_SK.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-sk_SK.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-sv_SE.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-sv_SE.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-tr.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-tr.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-uk.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-uk.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-vi.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-vi.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-zh_CN.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/languages/contact-form-plugin-zh_CN.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/screenshot-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/screenshot-10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/screenshot-11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/screenshot-12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/screenshot-13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/screenshot-14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/screenshot-15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/screenshot-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/screenshot-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/screenshot-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/screenshot-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/screenshot-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/screenshot-7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/screenshot-8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-plugin/screenshot-9.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/languages/contact-form-to-email-fr_CA.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/languages/contact-form-to-email-fr_CA.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/languages/contact-form-to-email-fr_FR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/languages/contact-form-to-email-fr_FR.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/README.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/cp-main-class.inc.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/cp-main-class.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/form-to-email.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/form-to-email.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/quadrosh/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/quadrosh/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/quadrosh/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/quadrosh/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/languages/contact-form-to-email-fr_CA.po" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/languages/contact-form-to-email-fr_CA.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/languages/contact-form-to-email-fr_FR.po" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/languages/contact-form-to-email-fr_FR.po" />
     </list>
     <ignored path="snsgsm.ru.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,11 +133,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/quadrosh/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27925533">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stylepublic.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/css/stylepublic.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.3510637">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cp-base-class.inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/classes/cp-base-class.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+              <folding>
+                <marker date="1478597148000" expanded="true" signature="500:520" placeholder="SELECT blog_... ${$wpdb-&gt;blogs}" />
+                <marker date="1478597148000" expanded="true" signature="2401:2444" placeholder="ALTER TABLE ${$table}" />
+                <marker date="1478597148000" expanded="true" signature="2914:2974" placeholder="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,7 +190,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="12" />
-    <option name="y" value="288" />
+    <option name="y" value="303" />
     <option name="width" value="1266" />
     <option name="height" value="496" />
   </component>
@@ -207,6 +292,98 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snsgsm.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snsgsm.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quadrosh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="texts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snsgsm.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snsgsm.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snsgsm.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snsgsm.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact-form-to-email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snsgsm.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snsgsm.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact-form-to-email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -255,14 +432,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="288" width="1266" height="496" extended-state="0" />
-    <editor active="false" />
+    <frame x="12" y="303" width="1266" height="496" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25408497" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25408497" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -285,10 +462,46 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/captcha/captcha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.864362">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/classes/cp-base-class.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+          <folding>
+            <marker date="1478597148000" expanded="true" signature="500:520" placeholder="SELECT blog_... ${$wpdb-&gt;blogs}" />
+            <marker date="1478597148000" expanded="true" signature="2401:2444" placeholder="ALTER TABLE ${$table}" />
+            <marker date="1478597148000" expanded="true" signature="2914:2974" placeholder="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/quadrosh/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27925533">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-to-email/css/stylepublic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3510637">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

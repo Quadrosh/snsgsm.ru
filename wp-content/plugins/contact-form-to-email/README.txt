@@ -625,9 +625,15 @@ When you click a field already added into the contact form builder area, you can
 = 1.1.56 =
 * Roll back to incorrect update
 
+= 1.1.57 =
+* Interface update
+
+= 1.1.58 =
+* Fix to visualization bug in Firefox
+
 == Upgrade Notice ==
 
-= 1.1.56 =
-* Roll back to incorrect update
+= 1.1.58 =
+* Fix to visualization bug in Firefox
 
 Important note: If you are using a commercial version don't update via the WP dashboard but using your personal update link. Contact us if you need further information: http://form2email.dwbooster.com/contact-us

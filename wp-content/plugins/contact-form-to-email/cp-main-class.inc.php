@@ -236,7 +236,7 @@ class CP_ContactFormToEmail extends CP_CFTEMAIL_BaseClass {
                 return false;
             } else <?php } ?>
             {
-                document.getElementById("form_structure<?php echo '_'.$this->print_counter; ?>").value = '';    
+                /**document.getElementById("form_structure<?php echo '_'.$this->print_counter; ?>").value = '';    */
                 return true;
             }    
          }
@@ -280,7 +280,7 @@ class CP_ContactFormToEmail extends CP_CFTEMAIL_BaseClass {
     /* Code for the admin area */
 
     public function plugin_page_links($links) {
-        $customAdjustments_link = '<a href="http://form2email.dwbooster.com/customization">'.__('Request custom changes','contact-form-to-email').'</a>';
+        $customAdjustments_link = '<a href="http://form2email.dwbooster.com/download">'.__('Upgrade To Premium','contact-form-to-email').'</a>';
     	array_unshift($links, $customAdjustments_link);
         $settings_link = '<a href="admin.php?page='.$this->menu_parameter.'">'.__('Settings','contact-form-to-email').'</a>';
     	array_unshift($links, $settings_link);

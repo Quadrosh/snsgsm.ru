@@ -95,6 +95,9 @@
 			</svg>
 			<p>Индивидуальные резервуары позволяют быть уверенным в качестве своего топлива</p>
 		</div>
+		<div class="buttonwrap">
+			<a href="index.php?page_id=122" class="orderButton">Отправить заявку</a>
+		</div>
 		
 	</div>
 </section>

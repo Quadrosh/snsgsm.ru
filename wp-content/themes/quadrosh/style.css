@@ -34,6 +34,7 @@ Version: 1.0
  * 6.0 - Sidebar
  *   6.1 - Widgets
  * 7.0 - Footer
+ * 7.XX (last)  Forms
  * 8.0 - Media Queries
  * 9.0 - Print
  * ----------------------------------------------------------------------------
@@ -566,20 +567,19 @@ input::-moz-focus-inner {
 	float: right;
 	
 }
-.entry-content .buttonwrap a {
+.entry-content .buttonwrap a,
+.backimage .buttonwrap a {
     color: #000;
 }
-.entry-content .buttonwrap a:hover {
+.entry-content .buttonwrap a:hover,
+.backimage .buttonwrap a:hover {
     color: #fff;
     text-decoration: none;
 }
-#fbuilder .pbreak .pbPrevious, 
-.pbreak .pbNext, 
-#fbuilder .pbSubmit {
-    background: #ccc;
-    color: #000;
-    padding: 10px 20px;
-    text-transform: uppercase;
+
+.page-id-13 .backimage .orderButton {
+    float: left;
+    margin-top: 30px;
 }
 textarea {
 	overflow: auto;
@@ -2052,7 +2052,7 @@ footer.entry-meta {
 
 .backimage {
     width: 100vw;
-    height: 700px;
+    height: 750px;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -3017,7 +3017,37 @@ footer.entry-meta {
 	display: block;
 	margin: -10px auto 0;
 }
-
+/**
+ * 7.XX (last)  Forms
+ * ----------------------------------------------------------------------------
+ */
+#fieldlist_1 .right_aligned,
+.right_aligned .pb0 {
+	text-align: center;
+}
+.right_aligned .position_field {
+    text-align: left;
+}
+#fbuilder_1 .pbSubmit {
+    position: relative;
+    left:50%;
+    margin-left:-65px;
+}
+.fform h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #ccc;
+    text-align: center;
+    margin-bottom: 50px !important;
+}
+#fbuilder .pbreak .pbPrevious,
+.pbreak .pbNext,
+#fbuilder .pbSubmit {
+    background: #3B909C;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
 
 /**
  * 8.0 Media Queries

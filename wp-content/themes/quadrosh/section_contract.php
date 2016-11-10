@@ -127,6 +127,9 @@
 			</svg>
 			<p>Мы ценим партнерские отношения и не перепрыгиваем в обход посредника при контрактной работе</p>
 		</div>
+		<div class="buttonwrap">
+			<a href="index.php?page_id=124" class="orderButton">Отправить заявку</a>
+		</div>
 		
 	</div>
 </section>

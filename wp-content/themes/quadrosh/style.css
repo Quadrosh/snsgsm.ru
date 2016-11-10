@@ -299,7 +299,15 @@ h1 {
 	line-height: 1.1;
 	margin: 68px 0 33px;
 }
-
+/* h1  заявка */
+.page-id-122 h1,
+.page-id-124 h1,
+.page-id-108 h1,
+.page-id-126 h1 {
+    font-size: 64px;
+    line-height: 1.1;
+    margin: 68px 0 33px;
+}
 h2 {
 	font-size: 30px;
 	margin: 25px 0;
@@ -3045,8 +3053,14 @@ footer.entry-meta {
 #fbuilder .pbSubmit {
     background: #3B909C;
     color: #fff;
-    padding: 10px 20px;
+    padding: 8px 16px;
     text-transform: uppercase;
+    border: 2px solid #3B909C;
+}
+#fbuilder .pbSubmit:hover {
+    background: #fff;
+    color: #3B909C;
+    border: 2px solid #3B909C;
 }
 
 /**
@@ -3274,7 +3288,12 @@ footer.entry-meta {
 		margin: 68px 0 33px;
 	}
 	/* h1  хранение */
-	.page-id-13 h1 {
+	.page-id-13 h1,
+    /*заявка*/
+    .page-id-122 h1,
+    .page-id-124 h1,
+    .page-id-108 h1,
+    .page-id-126 h1 {
 		font-size: 48px; 
 		margin: 68px 0 33px;
 	}
@@ -3339,7 +3358,11 @@ footer.entry-meta {
 	.page-id-13 h1,
     .blog h1,
     .page-id-28 h1,
-    .page-id-8 h1 {
+    .page-id-8 h1,
+    .page-id-122 h1,
+    .page-id-124 h1,
+    .page-id-108 h1,
+    .page-id-126 h1 {
     font-size: 36px;
     margin: 35px 0 15px;
 	}

@@ -591,38 +591,51 @@ function quadrosh_get_header_image() {
 	//хранение
 	if (is_page(13)) { 
 		include 'images/img_hran_ico.svg';
-		$headPageTitle = 'Хранение ГСМ';
 	}
 	//доставка
 	if (is_page(11)) { 
 		include 'images/truck.svg';
-		$headPageTitle = 'Доставка Топлива';
 	}
 	//Контрактные поставки
 	if (is_page(18)) { 
 		include 'images/stamp.svg';
-		$headPageTitle = 'Контрактные <br>поставки ГСМ';
 	}
 	//О компании
 	if (is_page(20)) { 
 		include 'images/big_logo.svg';
-		$headPageTitle = 'О компании';
 	}
 	//О компании/главная
 	if (is_page(8)) { 
 		include 'images/big_logo.svg';
-		$headPageTitle = 'О компании';
 	}
 	//Контакты
 	if (is_page(28)) { 
 		include 'images/big_logo.svg';
-		$headPageTitle = 'Контакты';
 	}
 	//Инфо
 	if (is_blog()) { 
 		include 'images/info.svg';
-		$headPageTitle = 'Информвция';
 	}
+
+    //Заявка на поставку
+    if (is_page(124)) {
+        include 'images/stamp.svg';
+
+    }
+    //Заявка на доставку
+    if (is_page(108)) {
+        include 'images/truck.svg';
+
+    }
+    //Заявка на хранение
+    if (is_page(122)) {
+        include 'images/img_hran_ico.svg';
+
+    }
+    //Спасибо
+    if (is_page(126)) {
+        include 'images/big_logo.svg';
+    }
 
 }
 
@@ -656,6 +669,23 @@ function quadrosh_get_headPageTitle() {
 	if (is_blog()) { 
 		$headPageTitle = 'Информация';
 	}
+	//Заявка на поставку
+	if (is_page(124)) {
+		$headPageTitle = 'Заявка';
+	}
+	//Заявка на доставку
+	if (is_page(108)) {
+		$headPageTitle = 'Заявка';
+	}
+	//Заявка на хранение
+	if (is_page(122)) {
+		$headPageTitle = 'Заявка';
+	}
+    //Спасибо
+    if (is_page(126)) {
+        $headPageTitle = 'Спасибо';
+    }
+
 	return $headPageTitle;
 }
 function quadroshSendOrder() {

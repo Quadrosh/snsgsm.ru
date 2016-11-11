@@ -1127,10 +1127,11 @@ ul.nav-menu ul a:focus,
 	height: 40px;
 	background-color: transparent;
 	display: block;
-	background-image: url(images/logo_small_darkness.svg);
+	background-image: url(images/logo_small_darkness.svg); /*белая*/
 }
-#primary-menu li:first-child a:hover::before {
-
+#primary-menu li:first-child a:hover::before,
+#primary-menu li:first-child a:focus::before,
+.page-id-8 #primary-menu #menu-item-15 a::before {
 	background-image: url(images/logo_small_darkness_hover.svg);
 }
 

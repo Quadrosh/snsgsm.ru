@@ -590,7 +590,7 @@ function quadrosh_get_header_image() {
 	static $headPageTitle;
 	//хранение
 	if (is_page(13)) { 
-		include 'images/img_hran_ico.svg';
+		include 'images/hran_ico_darkness.svg';
 	}
 	//доставка
 	if (is_page(11)) { 

@@ -16,9 +16,9 @@
 				xml:space="preserve"
 				>
 			<style type="text/css">
-				.quality_0{fill:none;stroke:#070808;stroke-width:8;stroke-miterlimit:10;}
-				.quality_1{fill:none;stroke:#000000;stroke-width:12;stroke-miterlimit:10;}
-				.quality_2{fill:none;stroke:#000000;stroke-width:15;stroke-miterlimit:10;}
+				.quality_0{fill:none;stroke:#ffffff;stroke-width:8;stroke-miterlimit:10;}
+				.quality_1{fill:none;stroke:#ffffff;stroke-width:12;stroke-miterlimit:10;}
+				.quality_2{fill:none;stroke:#ffffff;stroke-width:15;stroke-miterlimit:10;}
 			</style>
 			<g id="quality_2_">
 				<path id="XMLID_505_" class="quality_0" d="M169.3,210H50.7C28.2,210,10,191.8,10,169.3V50.7C10,28.2,28.2,10,50.7,10h118.6
@@ -28,7 +28,7 @@
 					c9.9,5.2,21.1,12,32.7,20.6c12.5,9.3,22.7,18.7,30.9,27.2c1.8,1.8,2.5,4.4,2,6.9c-2.4,11.9-5.7,24.9-10.2,38.8
 					c-4.2,13-8.8,24.7-13.5,35.2c-1.2,2.6-3.6,4.4-6.5,4.6c-12.3,1-25.7,1.7-40,1.6C96,177.9,83.4,177.3,71.7,176.3z"/>
 				<line id="XMLID_499_" class="quality_2" x1="89.4" y1="81.1" x2="89.4" y2="149.3"/>
-				<polygon id="XMLID_498_" points="100.8,115.2 128.5,81.1 145.4,81.1 117.7,115.2 145.4,149.3 128.2,149.3 	"/>
+				<polygon id="XMLID_498_" fill="#ffffff" points="100.8,115.2 128.5,81.1 145.4,81.1 117.7,115.2 145.4,149.3 128.2,149.3 	"/>
 			</g>
 			</svg>
 			
@@ -47,14 +47,14 @@
 				xml:space="preserve"
 				>
 			<style type="text/css">
-				.ico_discount_0{fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
-				.ico_discount_1{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-				.ico_discount_2{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-				.ico_discount_3{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+				.ico_discount_0{fill:none;stroke:#ffffff;stroke-width:8;stroke-miterlimit:10;}
+				.ico_discount_1{fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+				.ico_discount_2{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+				.ico_discount_3{fill:none;stroke:#ffffff;stroke-width:5;stroke-miterlimit:10;}
 			</style>
 			<g id="discount">
-				<circle id="XMLID_511_" cx="155.4" cy="76.6" r="20.8"/>
-				<circle id="XMLID_512_" cx="122.6" cy="100.1" r="14.6"/>
+				<circle id="XMLID_511_" fill="#ffffff" cx="155.4" cy="76.6" r="20.8"/>
+				<circle id="XMLID_512_" fill="#ffffff" cx="122.6" cy="100.1" r="14.6"/>
 				<path id="XMLID_521_" class="ico_discount_0" d="M169.3,210H50.7C28.2,210,10,191.8,10,169.3V50.7C10,28.2,28.2,10,50.7,10h118.6
 					c22.5,0,40.7,18.2,40.7,40.7v118.6C210,191.8,191.8,210,169.3,210z"/>
 				<g id="XMLID_518_">
@@ -89,8 +89,8 @@
 				xml:space="preserve"
 				>
 			<style type="text/css">
-				.ico_partners_0{fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
-				.ico_partners_1{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+				.ico_partners_0{fill:none;stroke:#ffffff;stroke-width:8;stroke-miterlimit:10;}
+				.ico_partners_1{fill:none;stroke:#ffffff;stroke-width:4;stroke-miterlimit:10;}
 			</style>
 			<g id="respect">
 				<path id="XMLID_19_" class="ico_partners_0" d="M169.3,210H50.7C28.2,210,10,191.8,10,169.3V50.7C10,28.2,28.2,10,50.7,10h118.6

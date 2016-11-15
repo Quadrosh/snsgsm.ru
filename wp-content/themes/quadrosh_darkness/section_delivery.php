@@ -11,8 +11,8 @@
 	xml:space="preserve"
 	>
 <style type="text/css">
-	.rapidity_0{fill:none;stroke:#3B909C;stroke-width:8;stroke-miterlimit:10;}
-	.rapidity_1{fill:none;stroke:#3B909C;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.rapidity_0{fill:none;stroke:#ffffff;stroke-width:8;stroke-miterlimit:10;}
+	.rapidity_1{fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
 </style>
 <g id="rapidity_1_">
 	<g id="XMLID_864_">
@@ -50,15 +50,15 @@
 	xml:space="preserve"
 	>
 <style type="text/css">
-	.ico_economy_0{fill:none;stroke:#3B909C;stroke-width:8;stroke-miterlimit:10;}
-	.ico_economy_1{fill:none;stroke:#3B909C;stroke-width:8;stroke-linejoin:round;stroke-miterlimit:10;}
-	.ico_economy_2{fill:#FFFFFF;stroke:#3B909C;stroke-width:8;stroke-linejoin:round;stroke-miterlimit:10;}
-	.ico_economy_3{fill:#3B909C;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
-	.ico_economy_4{fill:none;stroke:#FFFFFF;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.ico_economy_5{fill:none;stroke:#3B909C;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;}
-	.ico_economy_6{fill:none;stroke:#3B909C;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:13.5305,13.5305;}
-	.ico_economy_7{fill:#3B909C;}
-	.ico_economy_8{fill:none;stroke:#3B909C;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:9.4988,9.4988;}
+	.ico_economy_0{fill:none;stroke:#ffffff;stroke-width:8;stroke-miterlimit:10;}
+	.ico_economy_1{fill:none;stroke:#ffffff;stroke-width:8;stroke-linejoin:round;stroke-miterlimit:10;}
+	.ico_economy_2{fill:#32818F;stroke:#ffffff;stroke-width:8;stroke-linejoin:round;stroke-miterlimit:10;}
+	.ico_economy_3{fill:#ffffff;stroke:#32818F;stroke-width:2;stroke-miterlimit:10;}
+	.ico_economy_4{fill:none;stroke:#32818F;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.ico_economy_5{fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;}
+	.ico_economy_6{fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:13.5305,13.5305;}
+	.ico_economy_7{fill:#ffffff;}
+	.ico_economy_8{fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:9.4988,9.4988;}
 </style>
 <g id="low_x5F_price_x5F_on_x5F_long_1_">
 	<path id="XMLID_859_" class="ico_economy_0" d="M169.3,210H50.8C28.3,210,10,191.8,10,169.3V50.7C10,28.2,28.3,10,50.8,10h118.6
@@ -111,16 +111,16 @@
 	xml:space="preserve"
 	>
 <style type="text/css">
-	.safe0{fill:none;stroke:#3B909C;stroke-width:8;stroke-miterlimit:10;}
-	.safe1{fill:none;stroke:#3B909C;stroke-width:10;stroke-linejoin:round;stroke-miterlimit:10;}
-	.safe2{fill:#3B909C;}
-	.safe3{fill:none;stroke:#3A919E;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}
-	.safe4{fill:#3A919E;}
-	.safe5{fill:none;stroke:#3A919E;stroke-width:7;stroke-miterlimit:10;}
-	.safe6{fill:none;stroke:#3A919E;stroke-width:6;stroke-miterlimit:10;}
-	.safe7{fill:none;stroke:#3A919E;stroke-width:2;stroke-miterlimit:10;}
-	.safe8{fill:none;stroke:#3A919E;stroke-miterlimit:10;}
-	.safe9{fill:none;stroke:#3A919E;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;}
+	.safe0{fill:none;stroke:#ffffff;stroke-width:8;stroke-miterlimit:10;}
+	.safe1{fill:none;stroke:#ffffff;stroke-width:10;stroke-linejoin:round;stroke-miterlimit:10;}
+	.safe2{fill:#ffffff;}
+	.safe3{fill:none;stroke:#ffffff;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}
+	.safe4{fill:#ffffff;}
+	.safe5{fill:none;stroke:#ffffff;stroke-width:7;stroke-miterlimit:10;}
+	.safe6{fill:none;stroke:#ffffff;stroke-width:6;stroke-miterlimit:10;}
+	.safe7{fill:none;stroke:#ffffff;stroke-width:2;stroke-miterlimit:10;}
+	.safe8{fill:none;stroke:#ffffff;stroke-miterlimit:10;}
+	.safe9{fill:none;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;}
 </style>
 <g id="nothief_1_">
 	<path id="XMLID_829_" class="safe0" d="M169.3,209.5H50.7c-22.5,0-40.7-18.2-40.7-40.7V50.2C10,27.7,28.2,9.5,50.7,9.5h118.6

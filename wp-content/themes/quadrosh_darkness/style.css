@@ -569,11 +569,15 @@ input::-moz-focus-inner {
 .orderButton {
 	text-transform: uppercase;
 	display: inline-block;
-	/*background-color: #FFCC60;*/
 	background-color: #E8B84D;
 	padding: 10px 20px;
 	float: right;
-	
+    -webkit-animation: order_button_hover_off 1s ;
+    animation: order_button_hover_off 1s ;
+}
+@keyframes order_button_hover_off {
+    to {  box-shadow: 1px 1px 5px transparent;}
+    from { box-shadow: 0px 1px 5px rgba(0,0,0,0.3),  0px 4px 15px rgba(0,0,0,0.3),  0px 8px 25px rgba(0,0,0,0.3);}
 }
 .entry-content .buttonwrap a,
 .backimage .buttonwrap a {
@@ -581,73 +585,97 @@ input::-moz-focus-inner {
 }
 .entry-content .buttonwrap a:hover,
 .backimage .buttonwrap a:hover {
-    color: #fff;
+    color: #000;
     text-decoration: none;
+    /*box-shadow: 0px 1px 5px #066679,  0px 4px 15px #066679,  0px 8px 25px #066679;*/
+box-shadow: 0px 1px 5px rgba(0,0,0,0.3),  0px 4px 15px rgba(0,0,0,0.3),  0px 8px 25px rgba(0,0,0,0.3);
+-webkit-animation: order_button_hover_on 1s ;
+animation: order_button_hover_on 1s ;
+}
+@keyframes order_button_hover_on {
+from {  box-shadow: 1px 1px 5px transparent;}
+to { box-shadow: 0px 1px 5px rgba(0,0,0,0.3),  0px 4px 15px rgba(0,0,0,0.3),  0px 8px 25px rgba(0,0,0,0.3);}
 }
 
+.entry-content .buttonwrap a:focus,
+.backimage .buttonwrap a:focus {
+
+    box-shadow: box-shadow: 1px 1px 5px transparent;
+    -webkit-animation: order_active_button_hover 0.5s ;
+    animation: order_active_button_hover 0.5s ;
+}
+@keyframes order_active_button_hover {
+    to {  box-shadow: 1px 1px 5px transparent;}
+    from { box-shadow: 0px 1px 5px rgba(0,0,0,0.3),  0px 4px 15px rgba(0,0,0,0.3),  0px 8px 25px rgba(0,0,0,0.3);}
+}
+/*.entry-content .buttonwrap a:active,*/
+/*.backimage .buttonwrap a:active {*/
+
+    /*box-shadow: box-shadow: 1px 1px 5px transparent;*/
+/*}*/
 .backimage .orderButton {
-    float: left;
-    margin-top: 30px;
+float: left;
+margin-top: 30px;
 }
 textarea {
-	overflow: auto;
-	vertical-align: top;
+overflow: auto;
+vertical-align: top;
 }
 
 table {
-	border-bottom: 1px solid #ededed;
-	border-collapse: collapse;
-	border-spacing: 0;
-	font-size: 14px;
-	line-height: 2;
-	margin: 0 0 20px;
-	width: 100%;
+border-bottom: 1px solid #ededed;
+border-collapse: collapse;
+border-spacing: 0;
+font-size: 14px;
+line-height: 2;
+margin: 0 0 20px;
+width: 100%;
 }
 
 caption,
 th,
 td {
-	font-weight: normal;
-	text-align: left;
+font-weight: normal;
+text-align: left;
 }
 
 caption {
-	font-size: 16px;
-	margin: 20px 0;
+font-size: 16px;
+margin: 20px 0;
 }
 
 th {
-	font-weight: bold;
-	text-transform: uppercase;
+font-weight: bold;
+text-transform: uppercase;
 }
 
 td {
-	border-top: 1px solid #ededed;
-	padding: 6px 10px 6px 0;
+border-top: 1px solid #ededed;
+padding: 6px 10px 6px 0;
 }
 
 del {
-	color: #333;
+color: #333;
 }
 
 ins {
-	background: #fff9c0;
-	text-decoration: none;
+background: #fff9c0;
+text-decoration: none;
 }
 
 hr {
-	background: url(images/dotted-line.png) repeat center top;
-	background-size: 4px 4px;
-	border: 0;
-	height: 1px;
-	margin: 0 0 24px;
+background: url(images/dotted-line.png) repeat center top;
+background-size: 4px 4px;
+border: 0;
+height: 1px;
+margin: 0 0 24px;
 }
 
 
 /**
- * 2.0 Repeatable Patterns
- * ----------------------------------------------------------------------------
- */
+* 2.0 Repeatable Patterns
+* ----------------------------------------------------------------------------
+*/
 
 .genericon:before,
 .menu-toggle:after,
@@ -1058,10 +1086,17 @@ div.nav-menu > ul {
 	color: #ffffff;
 	text-transform: uppercase;
 	display: block;
+    border-radius: 0px 10px 10px 10px;
 	font-size: 18px;
 	line-height: 1;
 	padding: 7px 10px;
 	text-decoration: none;
+    -webkit-animation: menu_item_hover_on 0.5s ;
+    animation: menu_item_hover_on 0.5s ;
+}
+@keyframes menu_item_hover_on {
+    to { background-color: transparent; }
+    from { background-color: #E8B84C; }
 }
 
 .nav-menu li:hover > a,
@@ -1071,7 +1106,12 @@ div.nav-menu > ul {
 	background-color: #E8B84C;
 	color: #066679;
 	border-radius: 0px 10px 10px 10px;
-
+    -webkit-animation: menu_item_hover_off 0.5s ;
+    animation: menu_item_hover_off 0.5s ;
+}
+@keyframes menu_item_hover_off {
+    from { background-color: transparent; }
+    to { background-color: #E8B84C; }
 }
 
 .nav-menu .sub-menu,
@@ -1161,9 +1201,11 @@ ul.nav-menu .focus > ul,
 .nav-menu .current-menu-item > a,
 .nav-menu .current-menu-ancestor > a {
 	color: #066679;
-	/*border: 2px solid #E8B84C;*/
     background-color: #E8B84C;
 	border-radius: 0px 10px 10px 10px;
+    -webkit-animation: none !important;
+    animation: none !important;
+
 }
 
 .menu-toggle {
@@ -1313,7 +1355,7 @@ ul.nav-menu .focus > ul,
 }
 
 .entry-title a {
-	color: #141412;
+	color: #ffffff;
 }
 
 .entry-title a:hover {
@@ -1421,19 +1463,36 @@ ul.nav-menu .focus > ul,
 .entry-content .more-link {
 	white-space: nowrap;
 	float: right;
-	background-color: #3B909C;
+	background-color: #32818F;
 	padding: 2px 6px;
 	border-radius: 3px;
-	border: 2px solid  #3B909C;
+	border: 2px solid  #ffffff;
 	text-transform: uppercase;
 	font-size: 14px;
+    -webkit-animation: link_hover_off 0.5s ;
+    animation: link_hover_off 0.5s ;
+
+}
+@keyframes link_hover_off {
+    to {color: rgba(255,255,255,1); border: 2px solid  #ffffff; }
+    from {rgba(255,255,255,0.5); border: 2px solid  rgba(255,255,255,0.5); }
 
 
 }
 .entry-content .more-link:hover {
-	color: #3B909C;
+	color: rgba(255,255,255,0.5);
+	border: 2px solid  rgba(255,255,255,0.5);
 	background-color: transparent;
 	text-decoration: none;
+    -webkit-animation: link_hover_on 0.5s ;
+    animation: link_hover_on 0.5s ;
+
+}
+@keyframes link_hover_on {
+    from {color: rgba(255,255,255,1); border: 2px solid  #ffffff; }
+    to {rgba(255,255,255,0.5); border: 2px solid  rgba(255,255,255,0.5); }
+
+
 }
 
 .entry-content blockquote {
@@ -2123,7 +2182,7 @@ footer.entry-meta {
 	text-align: center;
 }
 .icon_block h3 {
-	color: #414042;
+	color: #ffffff;
 	font-size: 16px;
 	margin-top: 5px;
 	cursor: default;
@@ -3046,7 +3105,7 @@ footer.entry-meta {
 .fform h1 {
     text-transform: uppercase;
     font-size: 36px;
-    color: #ccc;
+    color: #ffffff;
     text-align: center;
     margin-bottom: 50px !important;
 }
@@ -3057,12 +3116,12 @@ footer.entry-meta {
     color: #fff;
     padding: 8px 16px;
     text-transform: uppercase;
-    border: 2px solid #3B909C;
+    border: 2px solid #ffffff;
 }
 #fbuilder .pbSubmit:hover {
     background: #fff;
     color: #3B909C;
-    border: 2px solid #3B909C;
+    border: 2px solid #ffffff;
 }
 
 /**

@@ -594,47 +594,47 @@ function quadrosh_get_header_image() {
 	}
 	//доставка
 	if (is_page(11)) { 
-		include 'images/truck.svg';
+		include 'images/truck_darkness.svg';
 	}
 	//Контрактные поставки
 	if (is_page(18)) { 
-		include 'images/stamp.svg';
+		include 'images/stamp_darkness.svg';
 	}
 	//О компании
 	if (is_page(20)) { 
-		include 'images/big_logo.svg';
+		include 'images/big_logo_darkness.svg';
 	}
 	//О компании/главная
 	if (is_page(8)) { 
-		include 'images/big_logo.svg';
+		include 'images/big_logo_darkness.svg';
 	}
 	//Контакты
 	if (is_page(28)) { 
-		include 'images/big_logo.svg';
+		include 'images/big_logo_darkness.svg';
 	}
 	//Инфо
 	if (is_blog()) { 
-		include 'images/info.svg';
+		include 'images/info_darkness.svg';
 	}
 
     //Заявка на поставку
     if (is_page(124)) {
-        include 'images/stamp.svg';
+        include 'images/stamp_darkness.svg';
 
     }
     //Заявка на доставку
     if (is_page(108)) {
-        include 'images/truck.svg';
+        include 'images/truck_darkness.svg';
 
     }
     //Заявка на хранение
     if (is_page(122)) {
-        include 'images/img_hran_ico.svg';
+        include 'images/hran_ico_darkness.svg';
 
     }
     //Спасибо
     if (is_page(126)) {
-        include 'images/big_logo.svg';
+        include 'images/big_logo_darkness.svg';
     }
 
 }

@@ -18,15 +18,14 @@
 				xml:space="preserve"
 				>
 			<style type="text/css">
-				.the24hours_0{fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
-				.the24hours_1{fill:#020202;}
-				.the24hours_2{enable-background:new    ;}
+				.the24hours_0{fill:none;stroke:#ffffff;stroke-width:8;stroke-miterlimit:10;}
+				.the24hours_1{fill:#ffffff;}
 			</style>
 			<path id="XMLID_490_" class="the24hours_0" d="M-25.7,497.7h-118.6c-22.5,0-40.7-18.3-40.7-40.7V338.4c0-22.5,18.2-40.7,40.7-40.7h118.6
 				c22.5,0,40.7,18.2,40.7,40.7V457C15,479.4-3.2,497.7-25.7,497.7z"/>
 			<path id="XMLID_489_" class="the24hours_1" d="M-85.1,330v11c30.7,0,55.5,24.8,55.5,55.5S-54.4,452-85.1,452c-24.9,0-45.9-16.4-53-38.9h13.5
 				l-9.6-16.6l-9.6-16.6l-9.6,16.6l-9.4,16.5h13.3c7.4,28.7,33.4,49.9,64.4,49.9c36.7,0,66.5-29.8,66.5-66.5S-48.4,330-85.1,330z"/>
-			<g class="the24hours_2">
+			<g class="the24hours_1">
 				<path d="M-148.7,359.2c1.1-2.4,3.4-4.5,6.7-6.4l5-2.9c2.2-1.3,3.8-2.4,4.7-3.3c1.4-1.4,2.1-3.1,2.1-4.9c0-2.2-0.6-3.9-1.9-5.1
 					s-3-1.9-5.2-1.9c-3.2,0-5.4,1.2-6.6,3.6c-0.7,1.3-1,3.1-1.1,5.4h-4.7c0.1-3.2,0.6-5.9,1.8-7.9c2-3.6,5.6-5.4,10.7-5.4
 					c4.2,0,7.3,1.1,9.3,3.4c2,2.3,2.9,4.8,2.9,7.7c0,3-1,5.5-3.1,7.6c-1.2,1.2-3.4,2.7-6.5,4.5l-3.5,2c-1.7,0.9-3,1.8-4,2.7
@@ -50,8 +49,8 @@
 				style="enable-background:new 0 0 220 220;" 
 				xml:space="preserve">
 			<style type="text/css">
-				.convinent_0{fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
-				.convinient_1{fill:none;stroke:#000000;stroke-width:8;stroke-linejoin:round;stroke-miterlimit:10;}
+				.convinent_0{fill:none;stroke:#ffffff;stroke-width:8;stroke-miterlimit:10;}
+				.convinient_1{fill:none;stroke:#ffffff;stroke-width:8;stroke-linejoin:round;stroke-miterlimit:10;}
 			</style>
 			<g id="convenient_group">
 				<path id="XMLID_494_" class="convinent_0" d="M168.6,210H50c-22.5,0-40.7-18.2-40.7-40.7V50.7C9.3,28.2,27.6,10,50,10h118.6
@@ -78,9 +77,9 @@
 				xml:space="preserve"
 				>
 			<style type="text/css">
-				.quality_0{fill:none;stroke:#070808;stroke-width:8;stroke-miterlimit:10;}
-				.quality_1{fill:none;stroke:#000000;stroke-width:12;stroke-miterlimit:10;}
-				.quality_2{fill:none;stroke:#000000;stroke-width:15;stroke-miterlimit:10;}
+				.quality_0{fill:none;stroke:#ffffff;stroke-width:8;stroke-miterlimit:10;}
+				.quality_1{fill:none;stroke:#ffffff;stroke-width:12;stroke-miterlimit:10;}
+				.quality_2{fill:none;stroke:#ffffff;stroke-width:15;stroke-miterlimit:10;}
 			</style>
 			<g id="quality_2_">
 				<path id="XMLID_505_" class="quality_0" d="M169.3,210H50.7C28.2,210,10,191.8,10,169.3V50.7C10,28.2,28.2,10,50.7,10h118.6
@@ -90,7 +89,7 @@
 					c9.9,5.2,21.1,12,32.7,20.6c12.5,9.3,22.7,18.7,30.9,27.2c1.8,1.8,2.5,4.4,2,6.9c-2.4,11.9-5.7,24.9-10.2,38.8
 					c-4.2,13-8.8,24.7-13.5,35.2c-1.2,2.6-3.6,4.4-6.5,4.6c-12.3,1-25.7,1.7-40,1.6C96,177.9,83.4,177.3,71.7,176.3z"/>
 				<line id="XMLID_499_" class="quality_2" x1="89.4" y1="81.1" x2="89.4" y2="149.3"/>
-				<polygon id="XMLID_498_" points="100.8,115.2 128.5,81.1 145.4,81.1 117.7,115.2 145.4,149.3 128.2,149.3 	"/>
+				<polygon id="XMLID_498_" fill="#ffffff" points="100.8,115.2 128.5,81.1 145.4,81.1 117.7,115.2 145.4,149.3 128.2,149.3 	"/>
 			</g>
 			</svg>
 			<p>Индивидуальные резервуары позволяют быть уверенным в качестве своего топлива</p>
